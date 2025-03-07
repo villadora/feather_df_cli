@@ -20,31 +20,31 @@ pip install feather-df-cli
 
 ## Usage
 
-After installation, you can use the `feather_cli` command to interact with Feather files:
+After installation, you can use the `feather-cli` command to interact with Feather files:
 
 ### Display Metadata
 ```bash
-feather_cli <input_file>
+feather-cli <input_file>
 ```
 
 ### View Schema
 ```bash
-feather_cli <input_file> --schema
+feather-cli <input_file> --schema
 ```
 
 ### Count Records
 ```bash
-feather_cli <input_file> --count
+feather-cli <input_file> --count
 ```
 
 ### View First N Rows
 ```bash
-feather_cli <input_file> --head N --format [table|markdown|csv]
+feather-cli <input_file> --head N --format [table|markdown|csv]
 ```
 
 ### View Last N Rows
 ```bash
-feather_cli <input_file> --tail N --format [table|markdown|csv]
+feather-cli <input_file> --tail N --format [table|markdown|csv]
 ```
 
 ## Development
